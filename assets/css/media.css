@@ -1,0 +1,95 @@
+#gameFrame {
+  width: 100%;
+  height: 100%;
+  padding: 59px 0px 0px 0px;
+  margin: 0px;
+}
+
+@media all and (display-mode: fullscreen) {
+  body {
+    overflow: hidden;
+  }
+}
+
+@media all and (display-mode: fullscreen) {
+  #mainNav {
+    display: none;
+  }
+}
+
+@media all and (display-mode: fullscreen) {
+  #gameFrame {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media all and (display-mode: fullscreen) {
+  #footer {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .user-list {
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #navbar-items-collpase {
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 992px) {
+  #user-menu-id {
+    left: 0.75rem;
+    top: 12rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .user-admin-menu.active a::before {
+    content: none;
+  }
+}
+
+@media (max-width: 992px) {
+  #user-link-id, #admin-id {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .user-list {
+    /*margin-top: 10px;*/
+    padding-left: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .c4-logo {
+    margin: 1rem 0 1rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header .navbar {
+    padding: 0.25rem 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #login-link-id {
+    margin-right: 1rem;
+  }
+}
+
