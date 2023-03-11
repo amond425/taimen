@@ -7,7 +7,8 @@ $(window).on('load', function () {
         console.log("NO ADS!");
         return false;
     }    
-    if (typeof ADVERTISEMENT_REDIRECT === 'undefined' || ADVERTISEMENT_REDIRECT === null) {    console.log("NO REDIRECT!");
+    if (typeof ADVERTISEMENT_REDIRECT === 'undefined' || ADVERTISEMENT_REDIRECT === null) {
+        console.log("NO REDIRECT!");
         return false;
     }    
     // console.log("AD", ADVERTISEMENT_ENABLE, ADVERTISEMENT_REDIRECT);
