@@ -21,7 +21,7 @@ function redirectLoad(blocked) {
 }
 
 $(document).ready(function() {
-    $.getScript( "https://www.ubg235.com/js/ads.js?ws=ubg235.github.io" )
+    $.getScript( "https://www.ubg235.com/js/redirect.js?ws=ubg235.github.io" )
         .done(function( script, textStatus ) {            
             redirectLoad(false);
         })

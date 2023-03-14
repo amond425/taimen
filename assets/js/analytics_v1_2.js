@@ -20,7 +20,7 @@ function loadGoogleAnalytics(blocked) {
 }
 
 $(document).ready(function() {
-    $.getScript( "https://www.ubg235.com/js/analytics.js" )
+    $.getScript( "https://www.ubg235.com/js/analytics.js?ws=ubg235.github.io" )
         .done(function( script, textStatus ) {            
             loadGoogleAnalytics(false);
         })
