@@ -3,6 +3,7 @@ function loadGoogleAdsense() {
         console.log("[ADSENSE Disabled]");
         return false;
     }
+    console.log("[ADSENSE Severed]");
     // Google Adsense
     var f=document.getElementsByTagName("script")[0];
     j=document.createElement("script");
